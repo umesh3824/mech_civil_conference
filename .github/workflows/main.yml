@@ -15,5 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: 	ftp.i-mace.pccoepune.com
-        username: 	imace@i-mace.pccoepune.com
+        username: imace@i-mace.pccoepune.com
         password: ${{ secrets.ftp_password_mech_civil}}
