@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: 	ftp.eaglesports.xyz
-        username: u334032788.eaglesports
-        password: ${{ secrets.ftp_password_eagle}}
+        server: 	ftp.i-mace.pccoepune.com
+        username: 	imace@i-mace.pccoepune.com
+        password: ${{ secrets.ftp_password_mech_civil}}
