@@ -14,7 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-       server: 	ftpupload.net
-       username: epiz_29810514
+       server: ftp.i-mace.pccoepune.com
+       username: imace@i-mace.pccoepune.com
        password: ${{secrets.ftp_password_mech_civil}}
-       server-dir: htdocs/
