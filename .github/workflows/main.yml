@@ -1,3 +1,25 @@
+# on: 
+#   push:
+#     branches:
+#       - master
+# name: 🚀 Deploy website on push
+# jobs:
+#   web-deploy:
+#     name: 🎉 Deploy
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: 🚚 Get latest code
+#       uses: actions/checkout@v2
+    
+#     - name: 📂 Sync files
+#       uses: SamKirkland/FTP-Deploy-Action@4.1.0
+#       with:
+#        server: ftp.i-mace.pccoepune.com
+#         username: imace@i-mace.pccoepune.com
+#         password: ${{ secrets.ftp_password_mech_civil}}
+
+
+
 on: 
   push:
     branches:
@@ -14,6 +36,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: 	ftp.i-mace.pccoepune.com
-        username: imace@i-mace.pccoepune.com
-        password: ${{ secrets.ftp_password_mech_civil}}
+       server: 	ftpupload.net
+        username: epiz_29810514
+        password: Ouf3u0AWjb7
