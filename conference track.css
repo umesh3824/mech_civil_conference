@@ -1,4 +1,4 @@
-        .card h5 {
+        .conference-track .card h5 {
             margin-top: 10px;
             padding: 5px;
             text-align: center;
@@ -24,7 +24,7 @@
             background: #e6ecf0;
         }
         
-        .card {
+        .conference-track .card {
             padding: 3px;
             margin-top: 10px;
             min-width: 300px;
@@ -36,20 +36,20 @@
             align-items: center;
         }
         
-        .card p {
+        .conference-track .card p {
             margin-bottom: 8px;
         }
         
-        .container,
-        .row {
+        .conference-track .container,
+        .conference-track .row {
             min-width: 100%;
             width: 100%;
             margin: 0;
             padding: 0;
         }
         
-        .left,
-        .right {
+        .conference-track .left,
+        .conference-track .right {
             display: flex;
             justify-content: center;
             /* align-items: center; */
@@ -64,20 +64,20 @@
             animation: fadeup 0.8s ease-in;
         }
         
-        .line {
+        .conference-track .line {
             height: 3px;
             width: 100px;
             background: rgb(209, 118, 118);
         }
         
-        .card {
+        .conference-track .card {
             margin-bottom: 7px;
             background: #d7dee0;
             border-radius: 10px;
             animation: fade 1.5s ease-in;
         }
         
-        .container {
+        .conference-track .container {
             margin-bottom: 10px;
         }
         
@@ -101,7 +101,7 @@
             }
         }
         
-        .civil {
+        .conference-track .civil {
             margin-top: 30px;
         }
         
@@ -111,10 +111,14 @@
             }
         }
         
-        .card {
+        .conference-track .card {
             transition: 0.2s all ease-in-out;
         }
         
-        .card:hover {
+        .conference-track .card:hover {
             transform: scale(1.01);
+        }
+        
+        .conference-track .card {
+            text-align: left;
         }
