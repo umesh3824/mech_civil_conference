@@ -111,15 +111,15 @@
         }
         
         .conference-track .card {
-            width: 88%;
+            width: 80%;
             justify-content: flex-start;
             align-items: flex-start;
-            padding: 10px;
+            padding: 5px;
             padding-left: 40px;
         }
         
         .conference-track ul {
-            padding-left: 90px;
+            padding-left: 60px;
         }
         
         .conference-track .civilline {
@@ -176,7 +176,21 @@
             text-align: left;
         }
         
-        .textx {
+        .conference-track .textx {
             text-align: center;
             width: 100%;
+        }
+        
+        .conference-track .card h5 {
+            font-weight: bold;
+            text-align: left;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .conference-track .card h5 .dot {
+            /* margin-top: 10px; */
+            height: 2px;
+            width: 40px;
+            background: black;
         }
