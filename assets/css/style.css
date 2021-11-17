@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.3);
+  background: rgba(6, 12, 34, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -591,7 +591,7 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/2.jpeg");
   background-size: cover;
   overflow: hidden;
   position: relative;
