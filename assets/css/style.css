@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Monotype Corsiva;
+  src: url(../font/MTCORSVA.TTF);
+}
+
+
 .b-b{
 border-bottom: dashed 2px rgba(45, 19, 70, 0.726);
 }
@@ -17,7 +23,34 @@ border-bottom: dashed 2px rgba(45, 19, 70, 0.726);
   height: 150px;
   margin: 0px 20px;
 }
+.t-color{
+  color:#f82249 !important;
+}
+.font-tnr{
+  font-family: 'Times New Roman', Times, serif;
+}
+.conference-title{
+  font-family: 'Monotype Corsiva' !important;
+  text-transform: capitalize;
+}
+.fw-head{
+  font-weight: 100;
+}
+.pccoe-logo{
+  width: 73px;
+}
+@media (max-width: 992px) {
+  .pccoe-logo{
+    margin-right: 10px;
+    width: 60px;
+  }
+}
 
+@media (max-width: 992px) {
+  .navbar{
+    margin:0px 0px !important;
+  }
+} */
 /* Tempplate */
 body {
   background: #fff;
@@ -456,10 +489,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 30px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 #hero h1 span {
   color: #f82249;
