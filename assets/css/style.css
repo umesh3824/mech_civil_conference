@@ -33,7 +33,10 @@ border-bottom: dashed 2px rgba(45, 19, 70, 0.726);
 }
 .conference-title{
   font-family: 'Monotype Corsiva' !important;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+}
+.ff{
+  font-family: 'Monotype Corsiva' !important;
 }
 .fw-head{
   font-weight: 100;
