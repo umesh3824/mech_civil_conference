@@ -1,0 +1,86 @@
+.organizing-committee .cardx {
+    padding: 7px;
+    margin: 10px 20px;
+    min-width: 200px;
+    width: 60%;
+    border: none;
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.organizing-committee h2 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.organizing-committee .line {
+    height: 3px;
+    width: 100px;
+    background: rgb(209, 118, 118);
+}
+
+.organizing-committee .top {
+    background: #cfcfcf;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.organizing-committee .top h5 {
+    margin: 0;
+    padding: 5px;
+}
+
+.organizing-committee .row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.organizing-committee .head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.organizing-committee .bottom {
+    background: gray;
+    color: white;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    bottom: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organizing-committee {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    justify-content: center;
+    align-items: space-around;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.organizing-committee .margin-up {
+    margin-top: 10px;
+    color: rgb(26, 65, 26);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    .organizing-committee {
+        flex-direction: column;
+    }
+}
