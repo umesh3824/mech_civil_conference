@@ -1,10 +1,9 @@
 .organizing-committee .cardx {
     padding: 7px;
-    margin: 10px 20px;
+    margin: 10px 40px;
     min-width: 200px;
-    width: 60%;
     border: none;
-    background: gray;
+    background: rgb(104, 112, 126);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -13,7 +12,7 @@
 }
 
 .organizing-committee h2 {
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
 }
@@ -25,7 +24,7 @@
 }
 
 .organizing-committee .top {
-    background: #cfcfcf;
+    background: #c6d4dd;
     width: 100%;
     border-radius: 5px;
     text-align: center;
@@ -50,7 +49,6 @@
 }
 
 .organizing-committee .bottom {
-    background: gray;
     color: white;
     border-radius: 0 0 5px 5px;
     text-align: center;
@@ -68,7 +66,7 @@
     align-items: space-around;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 10px;
+    background: #e6ecf0;
 }
 
 .organizing-committee .margin-up {
