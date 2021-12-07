@@ -83,9 +83,10 @@
     text-align: center;
     animation: fadeup 1s ease-in;
 }
-
-.last-card {
-    max-width: 28%;
+.last-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 500px) {
