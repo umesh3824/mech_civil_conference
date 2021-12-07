@@ -84,8 +84,15 @@
     animation: fadeup 1s ease-in;
 }
 
+.last-card {
+    max-width: 28%;
+}
+
 @media only screen and (max-width: 500px) {
     .organizing-committee {
         flex-direction: column;
+    }
+    .last-card {
+        max-width: 100%;
     }
 }
