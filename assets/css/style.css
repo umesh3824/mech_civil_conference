@@ -25,6 +25,16 @@ border-bottom: dashed 2px rgba(45, 19, 70, 0.726);
   height: 150px;
   margin: 0px 20px;
 }
+.spotlight{
+  background-color: #4747476c;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.spotlight .text{
+  color: white;
+  font-weight: 500;
+}
 .t-color{
   color:#f82249 !important;
 }
