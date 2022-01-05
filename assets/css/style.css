@@ -1803,6 +1803,10 @@ h6 {
     #herox {
         text-align: center;
     }
+    .addgradient {
+        background: linear-gradient( to left, #ffcfe9, rgba(255, 255, 255, 0.0));
+        backdrop-filter: blur(30px);
+    }
 }
 
 .zzzz {
@@ -1817,7 +1821,7 @@ h6 {
 }
 
 .addgradient {
-    background: linear-gradient( to left, #ffcfe9, rgba(255, 255, 255, 0.0));
+    background: linear-gradient( to left, rgb(212, 212, 248), #ffcfe9, rgba(255, 255, 255, 0.0));
     backdrop-filter: blur(30px);
 }
 
