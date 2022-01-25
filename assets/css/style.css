@@ -19,7 +19,11 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 1.5px;
 }
-
+.title-section{
+  background: url(../img/titleback.png);
+  background-repeat: no-repeat;
+  background-size: 100% 105%;
+}
 .about-pcet-img {
   width: 150px;
   height: 150px;
@@ -77,6 +81,11 @@
   .pccoe-logo {
     margin-right: 10px;
     width: 60px;
+  }
+  .title-section{
+    background: url(../img/mobile_title.png);
+    background-repeat: no-repeat;
+    background-size: 100% 105%;
   }
 }
 
@@ -1771,7 +1780,7 @@ h6 {
 }
 
 #herox {
-  height: 381px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
