@@ -85,7 +85,7 @@
   .title-section{
     background: url(../img/mobile_title.png);
     background-repeat: no-repeat;
-    background-size: 100% 105%;
+    background-size: cover;
   }
 }
 
