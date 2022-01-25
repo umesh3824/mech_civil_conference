@@ -32,7 +32,7 @@
 }
 
 .spotlight {
-  margin-top: 90px;
+  margin-top: 60px;
   background-color: #d13451;
   /* position: absolute; */
   /* bottom: 0; */
@@ -70,7 +70,7 @@
 }
 
 .pccoe-logo {
-  width: 73px;
+  width: 55px;
 }
 
 @media (max-width: 992px) {
@@ -225,7 +225,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 90px;
+  height: 60px;
   position: fixed;
   left: 0;
   top: 0;
@@ -237,7 +237,7 @@ h6 {
 #header.header-scrolled,
 #header.header-inner {
   background: rgb(255, 255, 255);
-  height: 70px;
+  height: 65px;
 }
 
 #header #logo h1 {
