@@ -5,15 +5,16 @@
   font-size: 20px;
   /* background: rgb(247,225,247);
     background: linear-gradient(90deg, rgba(247,225,247,1) 0%, rgba(255,207,233,1) 69%, #d4d4f8 100%); */
-  background: rgb(247, 225, 247);
+  /* background: rgb(247, 225, 247);
   background: linear-gradient(
     90deg,
     rgba(247, 225, 247, 1) 0%,
     rgba(255, 207, 233, 1) 69%,
     rgba(223, 223, 247, 1) 100%
-  );
+  ); */
+  background-color: #f8eee7;
   border: 1px solid;
-  border-color: #d4d4f8;
+  border-color: #f8e8de;
   justify-content: center;
   align-items: center;
   padding: 10px;
