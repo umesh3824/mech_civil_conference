@@ -22,7 +22,7 @@
     z-index: 10000000;
     backdrop-filter: blur(20px);
     min-width: 267px;
-    box-shadow: 0px 0px 340px 10px #5a5555;
+    box-shadow: 0 0 240px 0 #5a5555;
 }
 
 .popup button {
