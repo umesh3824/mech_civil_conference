@@ -77,7 +77,7 @@
   width: 55px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1335px) {
   .pccoe-logo {
     margin-right: 10px;
     width: 60px;
@@ -89,7 +89,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1335px) {
   .navbar {
     margin: 0px 0px !important;
   }
@@ -274,7 +274,7 @@ h6 {
   max-height: 80px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1335px) {
   #header #logo img {
     max-height: 70px;
   }
@@ -307,7 +307,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1335px) {
   .buy-tickets {
     margin: 0 15px 0 0;
   }
@@ -468,7 +468,7 @@ h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1335px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -613,7 +613,7 @@ h6 {
   padding: 0 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1335px) {
   #hero .hero-container {
     top: 70px;
   }
@@ -643,7 +643,7 @@ h6 {
   font-size: 20px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1335px) {
   #hero p {
     font-size: 16px;
   }
