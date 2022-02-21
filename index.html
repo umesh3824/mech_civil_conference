@@ -55,7 +55,7 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#herox">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about"><span>About <i>i</i>-MACE</span></a></li>
-                    <li><a class="nav-link scrollto" href="#schedule">Important Dates</a></li>
+                    <li><a class="nav-link scrollto" href="#schedule1">Important Dates</a></li>
                     <li><a class="nav-link scrollto" href="#conferencetrack">Conference Tracks</a></li>
                     <li><a class="nav-link scrollto" href="#publication">Publication Partners<sup><span class="badge bg-warning">New</span></sup></a></li>
                     <li><a class="nav-link scrollto" href="#patron">Patrons</a></li>
@@ -145,6 +145,24 @@
     </div>
     <main id="main">
         <div class="pt-3 pb-3 bg-light">
+          <section id="schedule" class="section-with-bg">
+            <div class="container-fluid" data-aos="fade-up">
+                <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                    <li class="nav-item">
+                      <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab" onclick="messageFun()">Submit Abstract(PDF) </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Submit Your Paper</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Author Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Listener Registration</a>
+                    </li>
+                </ul>
+            </div>
+          </section>
             <div class="container">
 
                 <!--Start Changed heading by Raj-->
@@ -225,14 +243,14 @@
         <!-- End About Section -->
 
         <!-- ======= Important dates Section ======= -->
-        <section id="schedule" class="section-with-bg">
-            <div class="container" data-aos="fade-up">
+        <section id="schedule1" class="section-with-bg">
+            <div class="container" data-aos="fade-up" id="schedule">
                 <div class="section-header">
                     <h2 class="ff">IMPORTANT DATES</h2>
                     <!--<p>Here are some importants for the conference</p>-->
                 </div>
 
-                <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                <!-- <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
                     <li class="nav-item">
                         <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Submit Your Paper</a>
                     </li>
@@ -242,7 +260,7 @@
                     <li class="nav-item">
                         <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Listener Registration</a>
                     </li>
-                </ul>
+                </ul> -->
 
                 <h3 class="sub-heading">The important dates for the <i>i</i>-MACE Internation Conference are as follows:</h3>
 
@@ -2977,5 +2995,9 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-
+<script>
+  function messageFun(){
+    alert("Please quote the topic & submit abstract in pdf file only on mail id imace@pccoepune.org");
+  }
+</script>
 </html>
