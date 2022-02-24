@@ -923,9 +923,9 @@ h6 {
 # Schedule Section
 --------------------------------------------------------------*/
 
-#schedule {
+/* #schedule {
   padding: 60px 0 60px 0;
-}
+} */
 
 #schedule .nav-tabs {
   text-align: center;
