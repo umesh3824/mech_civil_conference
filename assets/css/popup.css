@@ -15,7 +15,7 @@
     left: 50%;
     top: 50%;
     border-radius: 8px;
-    border: 5px solid #c03a53;
+    /* border: 5px solid #c03a53; */
     font-family: "Poppins", sans-serif;
     display: none;
     text-align: center;
