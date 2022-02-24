@@ -147,20 +147,44 @@
         <div class="pt-3 pb-3 bg-light">
           <section id="schedule" class="section-with-bg">
             <div class="container-fluid" data-aos="fade-up">
-                <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-                    <li class="nav-item">
-                      <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab" onclick="messageFun()">Submit Abstract(PDF) </a>
+                <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link mt-2" id="submit-abstract-tab" href="#submit-abstract" data-bs-target="#submit-abstract" role="tab" data-bs-toggle="tab" onclick="messageFun()">Submit Abstract(PDF) </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Submit Your Paper</a>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link mt-2" id="submit-paper-tab" href="#submit-paper" data-bs-target="#submit-paper"  role="tab" data-bs-toggle="tab">Submit Your Paper</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Author Registration</a>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link mt-2" id="author-registration-tab" href="#author-registration" data-bs-target="#author-registration"  role="tab" data-bs-toggle="tab">Author Registration</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link mt-2" href="#" role="tab" data-bs-toggle="tab">Listener Registration</a>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link mt-2" id="listener-registration-tab" href="#listener-registration" data-bs-target="#listener-registration" role="tab" data-bs-toggle="tab">Listener Registration</a>
                     </li>
                 </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade text-center " id="submit-abstract" role="tabpanel" aria-labelledby="submit-abstract-tab">Please quote the topic & submit abstract in pdf file only on mail id <b><i>imace@pccoepune.org</i></b></div>
+                  <div class="tab-pane fade text-center" id="submit-paper" role="tabpanel" aria-labelledby="submit-paper-tab"> </div>
+                  <div class="tab-pane fade text-center" id="author-registration" role="tabpanel" aria-labelledby="author-registration-tab"> </div>
+                  <div class="tab-pane fade text-center" id="listener-registration" role="tabpanel" aria-labelledby="listener-registration-tab"> </div>
+                </div>
+
+
+                <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                </div> -->
             </div>
           </section>
             <div class="container">
@@ -2996,8 +3020,8 @@
 
 </body>
 <script>
-  function messageFun(){
-    alert("Please quote the topic & submit abstract in pdf file only on mail id imace@pccoepune.org");
-  }
+  // function messageFun(){
+  //   alert("Please quote the topic & submit abstract in pdf file only on mail id imace@pccoepune.org");
+  // }
 </script>
 </html>
