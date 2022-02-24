@@ -2,7 +2,14 @@
   font-family: Monotype Corsiva;
   src: url(../font/MTCORSVA.TTF);
 }
-
+/* wseet Alert */
+.swal2-confirm{
+  background-color: #d13451 !important;
+  padding: 5px 30px !important;
+}
+.swal2-confirm:focus{
+  outline: none !important;
+}
 .h-0 {
   height: 0px;
 }
