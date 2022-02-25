@@ -152,7 +152,7 @@
                       <a class="nav-link mt-2" id="submit-abstract-tab" href="#submit-abstract" data-bs-target="#submit-abstract" role="tab" data-bs-toggle="tab" onclick="messageFun()">Submit Abstract(PDF) </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link mt-2" id="submit-paper-tab" href="#submit-paper" data-bs-target="#submit-paper"  role="tab" data-bs-toggle="tab">Submit Your Paper</a>
+                      <a class="nav-link mt-2" id="submit-abstract-tab" href="#submit-abstract" data-bs-target="#submit-abstract" role="tab" data-bs-toggle="tab" onclick="messageFun2()">Paper Submission </a>
                     </li>
                     <li class="nav-item" role="presentation">
                         <a class="nav-link mt-2" id="author-registration-tab" href="#author-registration" data-bs-target="#author-registration"  role="tab" data-bs-toggle="tab">Author Registration</a>
@@ -3050,6 +3050,14 @@
     Swal.fire({
       title: '<h4 p-0 m-0><b>Submit Abstract</b></h4>',
       html: 'Please quote the topic & submit abstract in pdf file only on mail id <b>imace@pccoepune.org</b>',
+      showCloseButton:true,
+    })
+  }
+  function messageFun2(){
+    // alert("Please quote the topic & submit abstract in pdf file only on mail id imace@pccoepune.org");
+    Swal.fire({
+      title: '<h4 p-0 m-0><b>Links</b></h4>',
+      html: '<p><a href = "https://drive.google.com/file/d/1dL64BhP0G5cYGIAWhs9Fyoc13gT5kZ60/view?usp=sharing">- Conference Management Tool (CMT) Guidelines </a></p><p><a href = "https://cmt3.research.microsoft.com">- CMT Link:- https://cmt3.research.microsoft.com</a></p><p><a href = "https://docs.google.com/document/d/1nfKWac7LUpP05orOpE8Oh9uDhah3bXfovWZns671Gwo/edit?usp=sharing">- Paper Template </a></p>',
       showCloseButton:true,
     })
   }
