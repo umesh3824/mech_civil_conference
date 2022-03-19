@@ -250,7 +250,7 @@ h6 {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 1000;
 }
 
 #header.header-scrolled,
@@ -1787,6 +1787,10 @@ h6 {
 #header {
   background-color: whitesmoke !important;
   border-bottom: 2px solid #f82249;
+}
+
+#headerr {
+  z-index: 10000;
 }
 
 #herox {

@@ -25,26 +25,49 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/link.css" rel="stylesheet" type="text/css">
     <link href="assets/css/conference track.css" rel="stylesheet">
     <link href="assets/css/organizing-committee.css" rel="stylesheet">
     <link href="assets/css/team.css" rel="stylesheet" type="text/css">
     <link href="assets/css/patron.css" rel="stylesheet" type="text/css">
 
+
 </head>
 
-<body>
+<body class="faded" id ="faded">
 	<!-- ================ PopUP =================== -->
-<div class="popup">
-        <button id="close">&times;</button>
-<!--         <h2><i>i-Mace</i> Second Call For Papers</h2> -->
-        <a href="https://drive.google.com/file/d/1RnzN7jg8tcsV2rKzcCMREIcW0oeAlD1P/view?usp=sharing" target="_blank"><img src="assets\img\popup\flyer2.jpg" alt=""></a>
-<!--         <a href="https://drive.google.com/file/d/1RnzN7jg8tcsV2rKzcCMREIcW0oeAlD1P/view?usp=sharing" class = "last-button">Details</a> -->
-</div>
+  <!-- <div class="popup">
+          <button id="close">&times;</button>
+          <a href="assets/files/i-MACE _Second Call of Papers.pdf" target="_blank"><img src="assets\img\popup\flyer2.jpg" alt=""></a>
+  </div> -->
+  <!-- <div class="modal-dialog modal-lg">...</div> -->
 	<!-- ================ PopUP =================== -->
+
+  <!-- New Popup start -->
+  <div class="popup_outside_black" id="outsidebg">
+    <div class="popup">
+      <div class="d-flex flex-row-reverse crosspop pe-5">
+        <button id="close" onclick="changeClass()">&times;</button></div>
+          <!-- <h2><i>i-Mace</i> Second Call For Papers</h2> -->
+          <a href="assets/files/i-MACE_Second_Call_of_Papers.pdf" target="_blank">
+              <img class="img-fluid p-1 bg-light" src="assets/img/popup/flyer2.jpg" alt="">
+          </a>
+          <!-- <a href="https://i-mace.pccoepune.com/" class = "last-button">Conference Website</a> -->
+    </div>
+  </div>
+      
+          <!-- <h2><i>i-Mace</i> Second Call For Papers</h2> -->
+          <!-- <a href="https://drive.google.com/file/d/1RnzN7jg8tcsV2rKzcCMREIcW0oeAlD1P/view?usp=sharing" target="_blank">
+              <img class="img-fluid p-1 bg-light" src="assets/img/popup/flyer2.jpg" alt="">
+          </a> -->
+          <!-- <a href="https://i-mace.pccoepune.com/" class = "last-button">Conference Website</a> -->
+    </div>
+  </div>
+  <!-- New Popup end-->
 
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center shadow">
-        <div class="container-fluid container-xxl d-flex align-items-center p-0">
+        <div id="headerr" class="container-fluid container-xxl d-flex align-items-center p-0">
             <div id="logo" class="me-auto ps-2">
                 <!-- Uncomment below if you prefer to use a text logo -->
                 <h3 class="p-0 m-0"><a href="index.html"><span class="ff"><b>i-MACE</b></span></a></h3>
@@ -63,7 +86,7 @@
                     <li><a class="nav-link scrollto" href="#committee">Organizing Committee</a></li>
                     <li><a class="nav-link scrollto" href="#advisory">Advisory Board</a></li>
                     <!-- <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
-          <li><a class="nav-link scrollto" href="#sponsors">Sponsors</a></li> -->
+                    <li><a class="nav-link scrollto" href="#sponsors">Sponsors</a></li> -->
                     <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
 
 
@@ -1237,31 +1260,31 @@
           <tbody>
               <tr>
                   <th scope="row">Faculty</th>
-                  <td>2500</td>
+                  <td>Rs.2500</td>
                   <td>$125</td>
-                  <td>3000</td>
+                  <td>Rs.3000</td>
                   <td>$150</td>
               </tr>
               <tr>
                   <th scope="row">Corporate / Industry
                   </th>
-                  <td>3000</td>
+                  <td>Rs.3000</td>
                   <td>$125</td>
-                  <td>3500</td>
+                  <td>Rs.3500</td>
                   <td>$150</td>
               </tr>
               <tr>
                   <th scope="row">Research Scholar</th>
-                  <td>2000</td>
+                  <td>Rs.2000</td>
                   <td>$125</td>
-                  <td>2500</td>
+                  <td>Rs.2500</td>
                   <td>$150</td>
               </tr>
               <tr>
                   <th scope="row">Attendee</th>
-                  <td>1000</td>
+                  <td>Rs.1000</td>
                   <td>$75</td>
-                  <td>1000</td>
+                  <td>Rs.1000</td>
                   <td>$75</td>
               </tr>
           </tbody>
@@ -1284,17 +1307,17 @@
                   <tr>
                       <td>1</td>
                       <td>Materials Today Proceedings- Elsevier</td>
-                      <td>4000/-</td>
+                      <td>Rs.4000/-</td>
                   </tr>
                   <tr>
                       <td>2</td>
                       <td>AIP Conference Proceedings</td>
-                      <td>8000/-</td>
+                      <td>Rs.8000/-</td>
                   </tr>
               </tbody>
           </table><br>
-          <li>The selection of a paper in Category 1 or 2 is purely based on recommendations from the peer-
-            review process. The remaining papers will be published in the conference special issue (without any
+          <li>The selection of a paper in Category 1 or 2 is purely based on recommendations from the peer-review process.
+             The remaining papers will be published in the conference special issue (without any
             additional charges).</li>
           <!-- <li>Selected papers will be published in Scopus indexed Journals.</li>
           <li>Additional Article Processing Charges (APC) will be applicable for Publications and the details of the same will made available on website.</li> -->
@@ -1312,7 +1335,7 @@
       </ul>
       <br>
       <h4><b>Accommodation details:</b></h4>
-      Accomodation is available at nearby area in the range of Rs. 2000 to 5000 per night.
+      Accomodation is available at nearby area in the range of Rs.2000 to Rs.5000 per night.
   </div>
   <br/><br/>
 </section>
@@ -3061,5 +3084,10 @@
       showCloseButton:true,
     })
   }
+
+  function changeClass() {
+        document.getElementById('outsidebg').className = "popup_outside_white";
+        document.getElementById('faded').className = "unfaded";
+    }
 </script>
 </html>
