@@ -85,12 +85,12 @@
 }
 .last-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 @media only screen and (max-width: 500px) {
-    .organizing-committee {
+    .organizing-committee, .last-row {
         flex-direction: column;
     }
     .last-card {
