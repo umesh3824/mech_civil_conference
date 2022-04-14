@@ -1846,3 +1846,25 @@ h6 {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
 }
+
+.timer-card{
+  background-color: #cb2543;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding: 0px;
+}
+.timer-card .num{
+  padding: 2px;
+  margin: 2px;
+  color: white;
+  font-weight: bold;
+}
+.timer-card .label{
+  background-color: #040919;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+}
